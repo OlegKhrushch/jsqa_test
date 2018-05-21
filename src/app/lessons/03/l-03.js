@@ -219,7 +219,7 @@ console.log('\nTask 03.02');
 // Add getInfo method to the lesson object, it should log lesson info to the console: lesson name, id and date.
 // TODO:
 lesson.getInfo = function (){
-    console.log("name is " + lesson.name + "\n id is " + lesson.id + "\n date is " + lesson.date);
+    console.log("name is " + lesson.name + "\nid is " + lesson.id + "\ndate is " + lesson.date);
 }
 lesson.getInfo();
 

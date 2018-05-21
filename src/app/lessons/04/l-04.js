@@ -547,10 +547,8 @@ console.log('\nTask 04.02');
 // TODO: пиши код тут:
 // Цей код тестує завдання:
 
-var sortNumbers = function(a, b){
-	primeNumbers.sort().join(', ');
-}
-
+var sortNumbers = primeNumbers.sort(function(a, b) {return b - a;});
+console.log(sortNumbers); 
 if (primeNumbers && primeNumbers[0] && primeNumbers[0] === 31) {
 	console.log('Task 04.02 is DONE! ');
 } else {
